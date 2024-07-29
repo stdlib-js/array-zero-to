@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import zeroTo from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-zero-to@deno/mod.js';
+import zeroTo from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-zero-to@v0.2.2-deno/mod.js';
 ```
 
 #### zeroTo( n\[, dtype] )
@@ -120,7 +120,7 @@ var arr = zeroTo( 5, 'int32' );
 ```javascript
 import sort2hp from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gsort2hp@deno/mod.js';
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@deno/mod.js';
-import zeroTo from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-zero-to@deno/mod.js';
+import zeroTo from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-zero-to@v0.2.2-deno/mod.js';
 
 // Generate an array of random numbers:
 var opts = {
