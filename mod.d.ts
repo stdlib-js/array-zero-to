@@ -1,4 +1,4 @@
-/**
+/*
 * @license Apache-2.0
 *
 * Copyright (c) 2024 The Stdlib Authors.
@@ -16,31 +16,30 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 4.1
+
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@main/index.d.ts"/>
+
+import { NumericAndGenericDataTypeMap } from '@stdlib/types/array';
 
 /**
-* Generate a linearly spaced numeric array whose elements increment by 1 starting from zero.
+* Generates a linearly spaced numeric array whose elements increment by 1 starting from zero.
 *
-* @module @stdlib/array-zero-to
+* @param n - number of elements
+* @param dtype - data type (default: 'float64')
+* @returns linearly spaced numeric array
 *
 * @example
-* var zeroTo = require( '@stdlib/array-zero-to' );
-*
 * var arr = zeroTo( 2 );
 * // returns <Float64Array>[ 0.0, 1.0 ]
 *
 * @example
-* var zeroTo = require( '@stdlib/array-zero-to' );
-*
 * var arr = zeroTo( 2, 'float32' );
 * // returns <Float32Array>[ 0.0, 1.0 ]
 */
-
-// MODULES //
-
-var main = require( './main.js' );
+declare function zeroTo<T extends keyof NumericAndGenericDataTypeMap<number> = 'float64'>( n: number, dtype?: T ): NumericAndGenericDataTypeMap<number>[T];
 
 
 // EXPORTS //
 
-module.exports = main;
+export = zeroTo;
