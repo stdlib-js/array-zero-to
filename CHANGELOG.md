@@ -4,13 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-24)
+## Unreleased (2026-06-29)
 
 <section class="features">
 
 ### Features
 
--   [`9d75cdf`](https://github.com/stdlib-js/stdlib/commit/9d75cdf60d77a0ed0322e64fba978a3187b98d1f) - add float16 dtype support to `array/zero-to` [(#13054)](https://github.com/stdlib-js/stdlib/pull/13054)
+-   [`0fbbe42`](https://github.com/stdlib-js/stdlib/commit/0fbbe42ac5285b2fc13893c2c62667a59aedf272) - add float16 dtype support to `array/zero-to` [(#13054)](https://github.com/stdlib-js/stdlib/pull/13054)
 
 </section>
 
@@ -22,7 +22,7 @@
 
 <details>
 
--   [`9d75cdf`](https://github.com/stdlib-js/stdlib/commit/9d75cdf60d77a0ed0322e64fba978a3187b98d1f) - **feat:** add float16 dtype support to `array/zero-to` [(#13054)](https://github.com/stdlib-js/stdlib/pull/13054) _(by Gururaj Gurram, Athan Reines)_
+-   [`0fbbe42`](https://github.com/stdlib-js/stdlib/commit/0fbbe42ac5285b2fc13893c2c62667a59aedf272) - **feat:** add float16 dtype support to `array/zero-to` [(#13054)](https://github.com/stdlib-js/stdlib/pull/13054) _(by Gururaj Gurram, Athan Reines)_
 -   [`d8c8201`](https://github.com/stdlib-js/stdlib/commit/d8c8201ac4ca8c5e2150a5a970a98a551672ac48) - **bench:** refactor to use string interpolation in `array/zero-to` [(#10351)](https://github.com/stdlib-js/stdlib/pull/10351) _(by Shubham)_
 
 </details>
